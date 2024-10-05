@@ -32,5 +32,7 @@ fi
 if [ ! -f "$COMPATPATH/openmw/toolmanifest.vdf" ]
         then cp -r toolmanifest.vdf ${COMPATPATH}/openmw
 fi
+
+# Done, Newline and tell so! uwu
 echo ""
 echo "Done! Select OpenMW as compatibility tool in your steam morrowind settings!!"
