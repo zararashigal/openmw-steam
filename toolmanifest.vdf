@@ -1,0 +1,4 @@
+"manifest"
+{
+  "commandline_waitforexitandrun" "/openmw waitforexitandrun"
+}
