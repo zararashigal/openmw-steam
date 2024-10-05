@@ -1,4 +1,7 @@
 "manifest"
 {
-  "commandline_waitforexitandrun" "/openmw waitforexitandrun"
+  "version" "2"
+  "commandline" "/openmw"
+  "use_sessions" "1"
+  "compatmanager_layer_name" "proton"
 }

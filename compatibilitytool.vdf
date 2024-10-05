@@ -2,12 +2,15 @@
 {
   "compat_tools"
   {
-    "OpenMW"
+    "openmw" // Internal name of this tool
     {
       "install_path" "."
-      "display_name" "OpenMW (Local version)"
-      "from_oslist" "windows"
-      "to_oslist" "linux"
+
+      // For this template, we're going to substitute the display_name key in here, e.g.:
+      "display_name" "openmw"
+
+      "from_oslist"  "windows"
+      "to_oslist"    "linux"
     }
   }
-]
+}
